@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Code_DataBase_SibaSbahi.exe" version="1.0.0.0" publicKeyToken="4a84e3d403c20645" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Code_DataBase_SibaSbahi" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Code_DataBase_SibaSbahi.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Code_DataBase_SibaSbahi.exe" size="319456">
+      <assemblyIdentity name="Code_DataBase_SibaSbahi" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>rCO1DpTPi7yWMEkIVtj1yNbcXsVeJP0TkOlkscnEvqc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Code_DataBase_SibaSbahi_Business.dll" size="43008">
+      <assemblyIdentity name="Code_DataBase_SibaSbahi_Business" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>gJVRZRra/BqoK0Alo2kvc+3C+Gy6xvYDBw3ByP7jQlA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Code_DataBase_SibaSbahi_Data.dll" size="11776">
+      <assemblyIdentity name="Code_DataBase_SibaSbahi_Data" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>XoFIWR1WGUlIf2vQdwVaYh+Zr+1aneqxgX+WAACjj3c=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Guna.UI2.dll" size="2161544">
+      <assemblyIdentity name="Guna.UI2" version="2.0.4.6" publicKeyToken="8B9D14AA5142E261" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>msi2XlwTKSqOVkGHwedEatxCMCKLZpODvXsHA1q5moI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SipaaFramework.dll" size="55808">
+      <assemblyIdentity name="SipaaFramework" version="1.1.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>2qzSe4yJuPMorCstgP5GRqnflQDlJl2PdDkRytT9VjY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Code_DataBase_SibaSbahi.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-G623BM9\siba1" issuerKeyHash="c43de62446763689ec9bb92089d637666883827d" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>3X0HJe9d2llQ53MUnRkwap4xPG4+wizbkKwD23B3oXI=</DigestValue></Reference></SignedInfo><SignatureValue>kTTzFjfdeW+oZbh5rleljbnZHHHsR7XiRTELG4+FvzXfMnyxFhCTeqYca6BiuFPfCnI64fEyCO+lfvaAmliCOhQCA6upjragntI/mXnAqslqDxyZPFOjOBdL7YlvkXT/hHBxElOz84myrGQWEXix0KIF8WidmCvCfY9BH+Rz1Lw=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>n9Pj4n1TqzhiOQLchvZGNm+gcFh4WmylPqBdKRW4b5vLgoE/grbT+spZfFuDhVuqKDPhB66QJv+F0WdAwJ7idjtfk5QyiGY07qg035NTcAfUXXh/mxPUfkiEAxV0Fyj7miHWXAkAeiepBpgSG4ra9JETxuVgQ+RLe+JaVTbKCW0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="72a17770db03ac90db2cc23e6e3c319e6a30199d1473e75059da5def25077ddd" Description="" Url=""><as:assemblyIdentity name="Code_DataBase_SibaSbahi.exe" version="1.0.0.0" publicKeyToken="4a84e3d403c20645" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-G623BM9\siba1</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>iKBVXP+I5Bpp2yEm16UsjAJcWbYf2IexgtIzZK3jP3I=</DigestValue></Reference></SignedInfo><SignatureValue>T9cyP/C0660f5wdn6AJG3cQqahfVwCql6zsR4vSZE5aPI8KaRJEDgpgP6C6hdRoPp1y8cB6uCLwVNBvRVVpa0py1k/TFyAPYn198DXnvKHCys8JNCgAC5FJYQBFDyqMqxr2HYGKYfXGieGynGdzsgUhzEqu27XUwJhBW78yz7e4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>n9Pj4n1TqzhiOQLchvZGNm+gcFh4WmylPqBdKRW4b5vLgoE/grbT+spZfFuDhVuqKDPhB66QJv+F0WdAwJ7idjtfk5QyiGY07qg035NTcAfUXXh/mxPUfkiEAxV0Fyj7miHWXAkAeiepBpgSG4ra9JETxuVgQ+RLe+JaVTbKCW0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQRYp/Wy12aLVIF3pWtBccNzANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEcANgAyADMAQgBNADkAXABzAGkAYgBhADEwHhcNMjQxMTE3MDgxODQ0WhcNMjUxMTE3MTQxODQ0WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEcANgAyADMAQgBNADkAXABzAGkAYgBhADEwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJ/T4+J9U6s4YjkC3Ib2RjZvoHBYeFpspT6gXSkVuG+by4KBP4K20/rKWXxbg4Vbqigz4QeukCb/hdFnQMCe4nY7X5OUMohmNO6oNN+TU3AH1F14f5sT1H5IhAMVdBco+5oh1lwJAHonqQaYEhuK2vSRE8blYEPkS3viWlU2ygltAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAU93o+psWgmALGjX/8jZZX9KFK3IzHEtIvtqolNd1D84iBx5KAGUg8mwNLfXo6jwM//cfazxVo01Uuhyg1I+67Al6hNiXsmJrbvCKlr5qJmuIHidMHMI4iJfZO3jDTZx0wYMQIrc+H8p7kRLFnvNNtDe4MjksyKPBgLBz2V2ywdM=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

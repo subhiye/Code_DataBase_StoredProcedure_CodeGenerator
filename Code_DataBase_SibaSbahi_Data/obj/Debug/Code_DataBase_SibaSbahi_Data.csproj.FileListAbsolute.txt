@@ -1,0 +1,12 @@
+C:\Users\siba1\Desktop\Code_DataBase_SibaSbahi\Code_DataBase_SibaSbahi_Data\bin\Debug\Code_DataBase_SibaSbahi_Data.dll
+C:\Users\siba1\Desktop\Code_DataBase_SibaSbahi\Code_DataBase_SibaSbahi_Data\bin\Debug\Code_DataBase_SibaSbahi_Data.pdb
+C:\Users\siba1\Desktop\Code_DataBase_SibaSbahi\Code_DataBase_SibaSbahi_Data\obj\Debug\Code_DataBase_SibaSbahi_Data.csproj.AssemblyReference.cache
+C:\Users\siba1\Desktop\Code_DataBase_SibaSbahi\Code_DataBase_SibaSbahi_Data\obj\Debug\Code_DataBase_SibaSbahi_Data.csproj.CoreCompileInputs.cache
+C:\Users\siba1\Desktop\Code_DataBase_SibaSbahi\Code_DataBase_SibaSbahi_Data\obj\Debug\Code_DataBase_SibaSbahi_Data.dll
+C:\Users\siba1\Desktop\Code_DataBase_SibaSbahi\Code_DataBase_SibaSbahi_Data\obj\Debug\Code_DataBase_SibaSbahi_Data.pdb
+C:\Users\siba1\source\repos\Code_DataBase_SibaSbahi\Code_DataBase_SibaSbahi_Data\bin\Debug\Code_DataBase_SibaSbahi_Data.dll
+C:\Users\siba1\source\repos\Code_DataBase_SibaSbahi\Code_DataBase_SibaSbahi_Data\bin\Debug\Code_DataBase_SibaSbahi_Data.pdb
+C:\Users\siba1\source\repos\Code_DataBase_SibaSbahi\Code_DataBase_SibaSbahi_Data\obj\Debug\Code_DataBase_SibaSbahi_Data.csproj.AssemblyReference.cache
+C:\Users\siba1\source\repos\Code_DataBase_SibaSbahi\Code_DataBase_SibaSbahi_Data\obj\Debug\Code_DataBase_SibaSbahi_Data.csproj.CoreCompileInputs.cache
+C:\Users\siba1\source\repos\Code_DataBase_SibaSbahi\Code_DataBase_SibaSbahi_Data\obj\Debug\Code_DataBase_SibaSbahi_Data.dll
+C:\Users\siba1\source\repos\Code_DataBase_SibaSbahi\Code_DataBase_SibaSbahi_Data\obj\Debug\Code_DataBase_SibaSbahi_Data.pdb
