@@ -23,5 +23,10 @@ namespace Code_DataBase_SibaSbahi
             frmCodeGeneratorMainPage frm = new frmCodeGeneratorMainPage();
             frm.ShowDialog();
         }
+
+        private void guna2GradientButton2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

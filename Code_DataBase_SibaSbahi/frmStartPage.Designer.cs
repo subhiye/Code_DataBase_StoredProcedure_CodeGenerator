@@ -39,6 +39,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
+            this.guna2GradientButton2 = new Guna.UI2.WinForms.Guna2GradientButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -162,12 +163,31 @@
             this.label8.TabIndex = 39;
             this.label8.Text = "(It Is Sensitive To  The Letters)";
             // 
+            // guna2GradientButton2
+            // 
+            this.guna2GradientButton2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2GradientButton2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2GradientButton2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2GradientButton2.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2GradientButton2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2GradientButton2.FillColor = System.Drawing.Color.Red;
+            this.guna2GradientButton2.FillColor2 = System.Drawing.Color.Blue;
+            this.guna2GradientButton2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2GradientButton2.ForeColor = System.Drawing.Color.White;
+            this.guna2GradientButton2.Location = new System.Drawing.Point(1054, 9);
+            this.guna2GradientButton2.Name = "guna2GradientButton2";
+            this.guna2GradientButton2.Size = new System.Drawing.Size(109, 45);
+            this.guna2GradientButton2.TabIndex = 40;
+            this.guna2GradientButton2.Text = "Close";
+            this.guna2GradientButton2.Click += new System.EventHandler(this.guna2GradientButton2_Click);
+            // 
             // frmStartPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Blue;
             this.ClientSize = new System.Drawing.Size(1175, 507);
+            this.Controls.Add(this.guna2GradientButton2);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
@@ -201,5 +221,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
+        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton2;
     }
 }

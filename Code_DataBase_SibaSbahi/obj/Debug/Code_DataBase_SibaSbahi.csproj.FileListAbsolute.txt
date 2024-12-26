@@ -33,3 +33,7 @@ C:\Users\siba1\source\repos\Code_DataBase_SibaSbahi\Code_DataBase_SibaSbahi\obj\
 C:\Users\siba1\source\repos\Code_DataBase_SibaSbahi\Code_DataBase_SibaSbahi\obj\Debug\Code_DataBase_SibaSbahi.exe
 C:\Users\siba1\source\repos\Code_DataBase_SibaSbahi\Code_DataBase_SibaSbahi\obj\Debug\Code_DataBase_SibaSbahi.pdb
 C:\Users\siba1\source\repos\Code_DataBase_SibaSbahi\Code_DataBase_SibaSbahi\obj\Debug\Code_DataBase_SibaSbahi.frmStartPage.resources
+C:\Users\siba1\source\repos\Code_DataBase_SibaSbahi\Code_DataBase_SibaSbahi\bin\Debug\Code_DataBase_SibaSbahi.exe.manifest
+C:\Users\siba1\source\repos\Code_DataBase_SibaSbahi\Code_DataBase_SibaSbahi\bin\Debug\Code_DataBase_SibaSbahi.application
+C:\Users\siba1\source\repos\Code_DataBase_SibaSbahi\Code_DataBase_SibaSbahi\obj\Debug\Code_DataBase_SibaSbahi.exe.manifest
+C:\Users\siba1\source\repos\Code_DataBase_SibaSbahi\Code_DataBase_SibaSbahi\obj\Debug\Code_DataBase_SibaSbahi.application

@@ -3,15 +3,13 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
-
 namespace Code_DataBase_SibaSbahi_Business
 {
     public class clsRegistry_Settings
     {
-        public static bool StoreIntoRegestry(string KeyPath, string ValueName, string ValueData, string ApplicationName)
+        public static bool StoreIntoRegestry(string KeyPath, Dictionary<string, string> ValueNames, string ApplicationName)
         {
-            bool IsStored = Registry_Settings_Data.StoreIntoRegistry(KeyPath, ValueName, ValueData, ApplicationName);
+            bool IsStored = Registry_Settings_Data.StoreIntoRegistry(KeyPath, ValueNames, ApplicationName);
             return IsStored;
         }
 
@@ -27,14 +25,31 @@ namespace Code_DataBase_SibaSbahi_Business
             return FullValue;
         }
 
+        public static Dictionary<string, string> GetValueFromRegestry(string KeyPath, List<string> ValuesNames, string ApplicationName)
+        {
+            return Registry_Settings_Data.GetValueNameFromRegistry(KeyPath, ValuesNames, ApplicationName);
+        }
+
         public bool IsValuseFound(string ValueName, string KeyPath)
         {
             return Registry_Settings_Data.IsValueFound(ValueName, KeyPath);
         }
 
+
+        public Dictionary<string, bool> AreValuesFound(string ValueName, List<string>ValueNames)
+        {
+            return Registry_Settings_Data.AreValuesFound(ValueName, ValueNames);
+        }
+
         public static bool DeleteValueFromRegistry(string KeyPath, string ValueName, string ApplicationName)
         {
             bool IsDeleted = Registry_Settings_Data.DeleteValueFromRegistry(KeyPath, ValueName, ApplicationName);
+            return IsDeleted;
+        }
+
+        public static bool DeleteValueFromRegistry(string KeyPath, List<string> ValueNames, string ApplicationName)
+        {
+            bool IsDeleted = Registry_Settings_Data.DeleteValueFromRegistry(KeyPath, ValueNames, ApplicationName);
             return IsDeleted;
         }
     }
